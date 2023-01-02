@@ -1,0 +1,50 @@
+header {
+    margin-top: 90px;
+    display: flex;
+    column-gap: 10px;
+}
+
+
+#profileicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+}
+
+#userinfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    row-gap: 1px;
+}
+
+#userinfo p {
+    margin-top: -20px;
+}
+
+header button {
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 500px) {
+    header {
+        top: -50px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        width: 200px;
+        height: 150vh;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+        border-right: 1px grey solid;
+    }
+    
+    
+    #profileicon {
+        width: 150px;
+        height: 150px;
+        border-radius: 70%;
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,34 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+
+#gallery img {
+    width: 93px;
+    height: 93px;
+    border-radius: 10%;
+    transition: 0.1s ease-in;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 500px) {
+    #gallery {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 12px;
+        row-gap: 12px;
+    }
+
+    #gallery img {
+        width: 8em;
+        height: 8em;
+        border-radius: 10%;
+        transition: 0.1s ease-in;
+    }
+}

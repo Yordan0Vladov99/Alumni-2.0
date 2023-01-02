@@ -1,0 +1,36 @@
+main {
+    margin-top: 30px;
+}
+
+#options {
+    display: flex;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+
+#options button {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#galleryButton {display: none}
+
+button {
+    background-color: grey;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(78, 78, 78);
+}
+
+@media only screen and (min-width: 500px) {
+    main {
+        margin-left: 210px;
+        margin-top: 60px;
+    }
+}
